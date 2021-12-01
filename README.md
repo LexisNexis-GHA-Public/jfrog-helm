@@ -37,3 +37,11 @@ with input build-type as helm-build, action collects environment variables for t
 Usage
 
   <img width="836" alt="Screen Shot 2021-12-01 at 8 39 54 AM" src="https://user-images.githubusercontent.com/31221465/144165089-59206f43-fd3a-425b-95b8-aa7604604dd0.png">
+  
+2.	promote-build
+with input build-type as promote-build, action promotes the build from one lifecycle repository to another life cycle repository.
+  
+Usage:
+  
+  <img width="590" alt="Screen Shot 2021-12-01 at 9 08 23 AM" src="https://user-images.githubusercontent.com/31221465/144167910-335e4da0-775d-41bf-8866-775200a1cd72.png">
+
