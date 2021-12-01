@@ -36,4 +36,4 @@ with input build-type as helm-build, action collects environment variables for t
 
 Usage
 
-  ![image](https://user-images.githubusercontent.com/31221465/140873709-2e3b69a6-be71-4e92-b8d6-b4100b61c388.png)
+  <img width="836" alt="Screen Shot 2021-12-01 at 8 39 54 AM" src="https://user-images.githubusercontent.com/31221465/144165089-59206f43-fd3a-425b-95b8-aa7604604dd0.png">
