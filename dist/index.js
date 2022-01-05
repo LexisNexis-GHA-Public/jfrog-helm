@@ -130,7 +130,7 @@ class Utils {
             if (core.getInput(Utils.BUILD_TYPE) == "helm-deploy") {
                 args = ["rt", "build-collect-env"];
                 res = yield (0, exec_1.exec)("jfrog", args);
-                args = ["rt", "build-add-gi"];
+                args = ["rt", "build-add-git"];
                 res = yield (0, exec_1.exec)("jfrog", args);
                 args = ["rt", "u", "(*).tgz", core.getInput(Utils.HELM_REPO)];
                 res = yield (0, exec_1.exec)("jfrog", args);
