@@ -57,7 +57,7 @@ export class Utils {
       args = ["rt", "build-collect-env"];
       res = await exec("jfrog", args);
 
-      args = ["rt", "build-add-gi"];
+      args = ["rt", "build-add-git"];
       res = await exec("jfrog", args);
 
       args = ["rt", "u", "(*).tgz", core.getInput(Utils.HELM_REPO)];
